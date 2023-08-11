@@ -49,7 +49,7 @@ btnEnviar.addEventListener('click', (e) => {
     dados[2].textContent = pessoa.idade + ' anos'
     dados[3].textContent = pessoa.peso + ' kg'
     dados[4].textContent = pessoa.altura + ' m'
-    dados[5].textContent = pessoa.imc + ' ' + pessoa.situacao
+    dados[5].textContent = pessoa.imc + ' - ' + pessoa.situacao
 
     e.preventDefault()
 
